@@ -1,0 +1,103 @@
+/* css Reset */
+body{
+    margin: 0;
+    padding: 0;
+    background: url('Images/bodyabs.jpg');
+    color: white;
+    /* font-family: 'Baloo Bhai 2', cursive; */
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    /* background-color: #fff; */
+     /* color: black;  */
+}
+.left img{
+    /* padding: 0px 0px 4px 0px; */
+    width: 35px;
+    /* height: 78px; */
+    filter: invert(100%);
+    /* height: 65px; */
+}
+.left div{
+    text-align: center;
+    /* line-height: 12px; */
+    bottom: 8px;
+}
+.mid{
+    /* border: 2px solid red; */
+    width: 44%;
+    margin: 20px auto;
+    /* color: white; */
+}
+.right{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    /* color: white; */
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+.btn{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px 9px;
+    padding: 3px 15px;
+    color: white;
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 12px;
+    font-size: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+.container{
+    border: 2px solid green;
+    background-color: rgb(13, 195, 236);
+    margin: 74px 78px;
+    padding: 26px 23px;
+    width: 33%;
+    border-radius: 21px;
+}
+.form-group input{
+    font-family: 'Baloo Bhai 2',cursive;
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    margin: auto;
+    width: 23%;
+    /* text-align: center; */
+}
+
